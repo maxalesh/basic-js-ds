@@ -30,7 +30,7 @@ function removeKFromList(l, k) {
         l.next = l.next.next;
       }
     }
-    
+
     if (l.next) {
         removeKFromList(l['next'], k);
     }
